@@ -12,6 +12,7 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>AR__c.SanRamon__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -1279,6 +1280,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>AR__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -1291,6 +1293,7 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
+        <members>AutoRabit__c</members>
         <members>BuyerAccount</members>
         <members>BuyerGroup</members>
         <members>BuyerGroupMember</members>
@@ -1419,11 +1422,17 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>AR__c-en_US</members>
+        <members>AutoRabit__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>AR__c-AR Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -1433,6 +1442,7 @@
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
+        <members>AutoRabit__c-AutoRabit Layout</members>
         <members>BuyerAccount-Buyer Account Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
