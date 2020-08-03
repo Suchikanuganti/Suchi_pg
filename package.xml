@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>47.0</version>
+    <version>48.0</version>
+    <types>
+        <members>MyHelloWorld</members>
+        <name>ApexClass</name>
+    </types>
     <types>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
@@ -117,6 +121,8 @@
         <members>AuthorizationFormText.Locale</members>
         <members>AuthorizationFormText.Name</members>
         <members>AuthorizationFormText.SummaryAuthFormText</members>
+        <members>AutoRABITTrain__c.TrainingProgress__c</members>
+        <members>AutoRABITTrain__c.TrainingTopic__c</members>
         <members>BuyerAccount.AvailableCredit</members>
         <members>BuyerAccount.BuyerId</members>
         <members>BuyerAccount.BuyerStatus</members>
@@ -1134,6 +1140,7 @@
         <members>ScorecardMetric.Name</members>
         <members>ScorecardMetric.ReportId</members>
         <members>ScorecardMetric.ScorecardId</members>
+        <members>SecondArchange__c.ArCheck__c</members>
         <members>ServiceAppointment.AccountId</members>
         <members>ServiceAppointment.ActualDuration</members>
         <members>ServiceAppointment.ActualEndTime</members>
@@ -1293,6 +1300,7 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
+        <members>AutoRABITTrain__c</members>
         <members>BuyerAccount</members>
         <members>BuyerGroup</members>
         <members>BuyerGroupMember</members>
@@ -1344,6 +1352,7 @@
         <members>ExpressionFilterCriteria</members>
         <members>ExternalEventMapping</members>
         <members>FeedItem</members>
+        <members>HarAR__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Individual</members>
@@ -1397,6 +1406,7 @@
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
+        <members>SecondArchange__c</members>
         <members>ServiceAppointment</members>
         <members>ServiceResource</members>
         <members>ServiceResourceSkill</members>
@@ -1419,6 +1429,7 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
+        <members>suchiAR__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -1440,6 +1451,7 @@
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
+        <members>AutoRABITTrain__c-AutoRABITTrain Layout</members>
         <members>BuyerAccount-Buyer Account Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
@@ -1462,6 +1474,7 @@
         <members>DelegatedAccount-External Managed Account Layout</members>
         <members>Event-Event Layout</members>
         <members>Global-Global Layout</members>
+        <members>HarAR__c-HarAR Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
@@ -1480,10 +1493,12 @@
         <members>Product2-Product Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>SecondArchange__c-SecondArchange Layout</members>
         <members>Session_Date__c-Session Date Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>User-User Layout</members>
+        <members>suchiAR__c-suchiAR Layout</members>
         <name>Layout</name>
     </types>
     <types>
