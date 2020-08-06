@@ -2685,6 +2685,10 @@
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
+        <name>AccessCMC</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ActivitiesAccess</name>
     </userPermissions>
     <userPermissions>

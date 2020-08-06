@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>47.0</version>
+    <version>48.0</version>
     <types>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
@@ -12,6 +12,7 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>AR__c.SanRamon__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -1281,6 +1282,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>AR__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -1293,6 +1295,7 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
+        <members>AutoRabit__c</members>
         <members>BuyerAccount</members>
         <members>BuyerGroup</members>
         <members>BuyerGroupMember</members>
@@ -1422,6 +1425,8 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>AR__c-en_US</members>
+        <members>AutoRabit__c-en_US</members>
         <members>Session_Date__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
@@ -1431,6 +1436,7 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>AR__c-AR Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -1440,6 +1446,7 @@
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
+        <members>AutoRabit__c-AutoRabit Layout</members>
         <members>BuyerAccount-Buyer Account Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
@@ -1603,6 +1610,7 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>AR Training</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -1641,6 +1649,16 @@
         <members>StandardAul</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Custom_Sales_Profile_profilePasswordPolicy1596588215119</members>
+        <members>Custom_Support_Profile_profilePasswordPolicy1596522091795</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>Custom_Sales_Profile_profileSessionSetting1596588215199</members>
+        <members>Custom_Support_Profile_profileSessionSetting1596522091867</members>
+        <name>ProfileSessionSetting</name>
     </types>
     <types>
         <members>Case.LogACall</members>
