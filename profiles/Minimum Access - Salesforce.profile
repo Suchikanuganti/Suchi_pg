@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>CreateAccountTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CreatingAccount</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -2018,6 +2026,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>ServiceResource.LocationId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>ServiceResourceSkill.EffectiveEndDate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2195,6 +2208,9 @@
         <layout>AR__c-AR Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ARdev2__c-ARdev2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AutoRabit__c-AutoRabit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2202,6 +2218,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>DelegatedAccount-External Managed Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dev2newjobs__c-dev2newjobs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sunil__c-sunil Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>

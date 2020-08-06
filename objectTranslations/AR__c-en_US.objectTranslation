@@ -9,7 +9,7 @@
         <value>ARs</value>
     </caseValues>
     <fields>
-        <label></label>
+        <label><!-- SanRamon --></label>
         <name>SanRamon__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
