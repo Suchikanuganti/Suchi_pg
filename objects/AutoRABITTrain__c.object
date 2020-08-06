@@ -189,6 +189,16 @@
                     <default>false</default>
                     <label>VC</label>
                 </value>
+                <value>
+                    <fullName>dataload</fullName>
+                    <default>false</default>
+                    <label>dataload</label>
+                </value>
+                <value>
+                    <fullName>AdminSetup</fullName>
+                    <default>false</default>
+                    <label>AdminSetup</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
