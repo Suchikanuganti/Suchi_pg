@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ARTrainDay2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ARTrainDay2s</value>
+    </caseValues>
+    <fields>
+        <label><!-- ARCheckbox --></label>
+        <name>ARCheckbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- ArTrext --></label>
+        <name>ArTrext__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
