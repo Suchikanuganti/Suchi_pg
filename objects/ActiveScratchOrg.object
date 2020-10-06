@@ -15,20 +15,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -67,20 +53,6 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>List</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -128,62 +100,67 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>CatalogId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>MasterDetail</type>
-    </fields>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Description</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
-        <fullName>IsNavigational</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Edition</fullName>
+    </fields>
+    <fields>
+        <fullName>ExpirationDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Features</fullName>
+    </fields>
+    <fields>
+        <fullName>Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LastLoginDate</fullName>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ParentCategoryId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Hierarchy</type>
+        <fullName>Namespace</fullName>
     </fields>
     <fields>
-        <fullName>SortOrder</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>OrgName</fullName>
+    </fields>
+    <fields>
+        <fullName>ScratchOrg</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ScratchOrgInfoId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SignupEmail</fullName>
+    </fields>
+    <fields>
+        <fullName>SignupInstance</fullName>
+    </fields>
+    <fields>
+        <fullName>SignupTrialDays</fullName>
+    </fields>
+    <fields>
+        <fullName>SignupUsername</fullName>
     </fields>
     <listViews>
-        <fullName>All_Product_Categories_List_View</fullName>
+        <fullName>All_Active_Scratch_Orgs</fullName>
         <filterScope>Everything</filterScope>
-        <label>All Categories</label>
+        <label>All Active Scratch Orgs</label>
     </listViews>
     <listViews>
-        <fullName>Org_ProductCategory_Hierarchy</fullName>
-        <columns>Name</columns>
-        <columns>IsNavigational</columns>
-        <filterScope>Everything</filterScope>
-        <label>Category Hierarchies</label>
+        <fullName>My_Active_Scratch_Orgs</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Active Scratch Orgs</label>
     </listViews>
-    <searchLayouts>
-        <customTabListAdditionalFields>Catalog</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ParentCategory</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Catalog</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ParentCategory</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Catalog</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ParentCategory</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Catalog</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ParentCategory</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
