@@ -1,3 +1,5 @@
 public class ARApexClass {
-    // body of the Apex class. Here we can define variables and methods
+    // body of the Apex class. 
+    //Test Suchi
+    //This is testing after branch merge //Nov 25
 }
