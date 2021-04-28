@@ -153,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Session Date</label>
+    <label>sunil</label>
     <nameField>
-        <label>Session Date Name</label>
+        <label>sunil Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Sessiondates</pluralLabel>
+    <pluralLabel>sunils</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

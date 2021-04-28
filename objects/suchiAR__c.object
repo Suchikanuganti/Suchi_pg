@@ -156,6 +156,7 @@
     <label>suchiAR</label>
     <nameField>
         <label>suchiAR Name</label>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>suchiARs</pluralLabel>

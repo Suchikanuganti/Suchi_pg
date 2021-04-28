@@ -153,12 +153,22 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Session Date</label>
+    <fields>
+        <fullName>ARcheck__c</fullName>
+        <externalId>false</externalId>
+        <label>ARcheck</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>ARTrain</label>
     <nameField>
-        <label>Session Date Name</label>
+        <label>ARTrain Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Sessiondates</pluralLabel>
+    <pluralLabel>ARTrains</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

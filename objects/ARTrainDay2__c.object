@@ -153,12 +153,30 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Session Date</label>
+    <fields>
+        <fullName>ARCheckbox__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ARCheckbox</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ArTrext__c</fullName>
+        <externalId>false</externalId>
+        <label>ArTrext</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>ARTrainDay2</label>
     <nameField>
-        <label>Session Date Name</label>
+        <label>ARTrainDay2 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Sessiondates</pluralLabel>
+    <pluralLabel>ARTrainDay2s</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

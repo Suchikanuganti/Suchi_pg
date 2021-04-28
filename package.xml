@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>48.0</version>
     <types>
+        <members>ARApexClass</members>
         <members>MyHelloWorld</members>
         <name>ApexClass</name>
     </types>
@@ -20,6 +21,9 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>ARTrainDay2__c.ARCheckbox__c</members>
+        <members>ARTrainDay2__c.ArTrext__c</members>
+        <members>ARTrain__c.ARcheck__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -32,7 +36,6 @@
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
-        <members>Account.IsBuyer</members>
         <members>Account.Jigsaw</members>
         <members>Account.NaicsCode</members>
         <members>Account.NaicsDesc</members>
@@ -45,6 +48,7 @@
         <members>Account.ParentId</members>
         <members>Account.Phone</members>
         <members>Account.Rating</members>
+        <members>Account.Rithu__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
@@ -61,21 +65,6 @@
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
-        <members>ActiveScratchOrg.Description</members>
-        <members>ActiveScratchOrg.Edition</members>
-        <members>ActiveScratchOrg.ExpirationDate</members>
-        <members>ActiveScratchOrg.Features</members>
-        <members>ActiveScratchOrg.Id</members>
-        <members>ActiveScratchOrg.LastLoginDate</members>
-        <members>ActiveScratchOrg.Name</members>
-        <members>ActiveScratchOrg.Namespace</members>
-        <members>ActiveScratchOrg.OrgName</members>
-        <members>ActiveScratchOrg.ScratchOrg</members>
-        <members>ActiveScratchOrg.ScratchOrgInfoId</members>
-        <members>ActiveScratchOrg.SignupEmail</members>
-        <members>ActiveScratchOrg.SignupInstance</members>
-        <members>ActiveScratchOrg.SignupTrialDays</members>
-        <members>ActiveScratchOrg.SignupUsername</members>
         <members>Asset.AccountId</members>
         <members>Asset.AssetLevel</members>
         <members>Asset.AssetProvidedById</members>
@@ -141,28 +130,6 @@
         <members>AuthorizationFormText.SummaryAuthFormText</members>
         <members>AutoRABITTrain__c.TrainingProgress__c</members>
         <members>AutoRABITTrain__c.TrainingTopic__c</members>
-        <members>BuyerAccount.AvailableCredit</members>
-        <members>BuyerAccount.BuyerId</members>
-        <members>BuyerAccount.BuyerStatus</members>
-        <members>BuyerAccount.CommerceType</members>
-        <members>BuyerAccount.CreditLimit</members>
-        <members>BuyerAccount.CreditStatus</members>
-        <members>BuyerAccount.CurrentBalance</members>
-        <members>BuyerAccount.IsActive</members>
-        <members>BuyerAccount.MaximumOrderLimit</members>
-        <members>BuyerAccount.MinimumOrderLimit</members>
-        <members>BuyerAccount.Name</members>
-        <members>BuyerAccount.OwnerId</members>
-        <members>BuyerAccount.PayerId</members>
-        <members>BuyerAccount.SendToId</members>
-        <members>BuyerGroup.Description</members>
-        <members>BuyerGroup.Name</members>
-        <members>BuyerGroup.OwnerId</members>
-        <members>BuyerGroupMember.BuyerId</members>
-        <members>BuyerGroupPricebook.BuyerGroupId</members>
-        <members>BuyerGroupPricebook.IsActive</members>
-        <members>BuyerGroupPricebook.Pricebook2Id</members>
-        <members>BuyerGroupPricebook.Priority</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -257,7 +224,6 @@
         <members>CardPaymentMethod.Status</members>
         <members>Case.AccountId</members>
         <members>Case.AssetId</members>
-        <members>Case.AutoRabit__c</members>
         <members>Case.BusinessHoursId</members>
         <members>Case.ClosedDate</members>
         <members>Case.Comments</members>
@@ -270,7 +236,6 @@
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.IsClosedOnCreate</members>
         <members>Case.IsEscalated</members>
-        <members>Case.NumberofARlocations__c</members>
         <members>Case.Origin</members>
         <members>Case.OwnerId</members>
         <members>Case.ParentId</members>
@@ -311,17 +276,6 @@
         <members>CommSubscriptionTiming.PreferredTimeStart</members>
         <members>CommSubscriptionTiming.PreferredTimeZone</members>
         <members>CommSubscriptionTiming.Unit</members>
-        <members>CommerceEntitlementBuyerGroup.BuyerGroupId</members>
-        <members>CommerceEntitlementBuyerGroup.PolicyId</members>
-        <members>CommerceEntitlementPolicy.CanAddToCart</members>
-        <members>CommerceEntitlementPolicy.CanViewPrice</members>
-        <members>CommerceEntitlementPolicy.CanViewProduct</members>
-        <members>CommerceEntitlementPolicy.Description</members>
-        <members>CommerceEntitlementPolicy.IsActive</members>
-        <members>CommerceEntitlementPolicy.Name</members>
-        <members>CommerceEntitlementPolicy.OwnerId</members>
-        <members>CommerceEntitlementProduct.PolicyId</members>
-        <members>CommerceEntitlementProduct.ProductId</members>
         <members>ConsumptionRate.ConsumptionScheduleId</members>
         <members>ConsumptionRate.Description</members>
         <members>ConsumptionRate.LowerBound</members>
@@ -614,10 +568,6 @@
         <members>DataUsePurpose.Description</members>
         <members>DataUsePurpose.LegalBasisId</members>
         <members>DataUsePurpose.Name</members>
-        <members>DelegatedAccount.ManagedById</members>
-        <members>DelegatedAccount.Name</members>
-        <members>DelegatedAccount.OwnerId</members>
-        <members>DelegatedAccount.TargetId</members>
         <members>DigitalWallet.AccountId</members>
         <members>DigitalWallet.AuditEmail</members>
         <members>DigitalWallet.Comments</members>
@@ -637,12 +587,6 @@
         <members>DuplicateRecordItem.RecordId</members>
         <members>DuplicateRecordSet.DuplicateRuleId</members>
         <members>DuplicateRecordSet.RecordCount</members>
-        <members>ElectronicMediaGroup.DeveloperName</members>
-        <members>ElectronicMediaGroup.Name</members>
-        <members>ElectronicMediaGroup.UsageType</members>
-        <members>ElectronicMediaUse.ElectronicMediaGroupId</members>
-        <members>ElectronicMediaUse.ElectronicMediaId</members>
-        <members>ElectronicMediaUse.SortOrder</members>
         <members>EmailMessage.BccAddress</members>
         <members>EmailMessage.CcAddress</members>
         <members>EmailMessage.FirstOpenedDate</members>
@@ -837,7 +781,6 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
-        <members>NamespaceRegistry.NamespacePrefix</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
         <members>OperatingHours.TimeZone</members>
@@ -1028,9 +971,6 @@
         <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
         <members>Pricebook2.Name</members>
-        <members>Pricebook2.ValidFrom</members>
-        <members>Pricebook2.ValidTo</members>
-        <members>PricebookEntry.ActivePriceAdjustmentQuantity</members>
         <members>PricebookEntry.IsActive</members>
         <members>PricebookEntry.Pricebook2Id</members>
         <members>PricebookEntry.Product2Id</members>
@@ -1048,27 +988,8 @@
         <members>Product2.ProductCode</members>
         <members>Product2.QuantityUnitOfMeasure</members>
         <members>Product2.StockKeepingUnit</members>
-        <members>ProductCatalog.Name</members>
-        <members>ProductCatalog.OwnerId</members>
-        <members>ProductCategory.CatalogId</members>
-        <members>ProductCategory.Description</members>
-        <members>ProductCategory.IsNavigational</members>
-        <members>ProductCategory.Name</members>
-        <members>ProductCategory.ParentCategoryId</members>
-        <members>ProductCategory.SortOrder</members>
-        <members>ProductCategoryMedia.ElectronicMediaGroupId</members>
-        <members>ProductCategoryMedia.ElectronicMediaId</members>
-        <members>ProductCategoryMedia.ProductCategoryId</members>
-        <members>ProductCategoryMedia.SortOrder</members>
-        <members>ProductCategoryProduct.IsPrimaryCategory</members>
-        <members>ProductCategoryProduct.ProductCategoryId</members>
-        <members>ProductCategoryProduct.ProductId</members>
         <members>ProductConsumptionSchedule.ConsumptionScheduleId</members>
         <members>ProductConsumptionSchedule.ProductId</members>
-        <members>ProductMedia.ElectronicMediaGroupId</members>
-        <members>ProductMedia.ElectronicMediaId</members>
-        <members>ProductMedia.ProductId</members>
-        <members>ProductMedia.SortOrder</members>
         <members>QuickText.Category</members>
         <members>QuickText.Channel</members>
         <members>QuickText.IsInsertable</members>
@@ -1159,35 +1080,6 @@
         <members>ScorecardMetric.Name</members>
         <members>ScorecardMetric.ReportId</members>
         <members>ScorecardMetric.ScorecardId</members>
-        <members>ScratchOrgInfo.AdminEmail</members>
-        <members>ScratchOrgInfo.AuthCode</members>
-        <members>ScratchOrgInfo.ConnectedAppCallbackUrl</members>
-        <members>ScratchOrgInfo.ConnectedAppConsumerKey</members>
-        <members>ScratchOrgInfo.Country</members>
-        <members>ScratchOrgInfo.DeletedBy</members>
-        <members>ScratchOrgInfo.DeletedDate</members>
-        <members>ScratchOrgInfo.Description</members>
-        <members>ScratchOrgInfo.Edition</members>
-        <members>ScratchOrgInfo.ErrorCode</members>
-        <members>ScratchOrgInfo.ExpirationDate</members>
-        <members>ScratchOrgInfo.Features</members>
-        <members>ScratchOrgInfo.Instance</members>
-        <members>ScratchOrgInfo.Language</members>
-        <members>ScratchOrgInfo.LastLoginDate</members>
-        <members>ScratchOrgInfo.Name</members>
-        <members>ScratchOrgInfo.Namespace</members>
-        <members>ScratchOrgInfo.OrgName</members>
-        <members>ScratchOrgInfo.Package2AncestorIds</members>
-        <members>ScratchOrgInfo.Release</members>
-        <members>ScratchOrgInfo.ScratchOrg</members>
-        <members>ScratchOrgInfo.SignupCountry</members>
-        <members>ScratchOrgInfo.SignupEmail</members>
-        <members>ScratchOrgInfo.SignupInstance</members>
-        <members>ScratchOrgInfo.SignupLanguage</members>
-        <members>ScratchOrgInfo.SignupTrialDays</members>
-        <members>ScratchOrgInfo.SignupUsername</members>
-        <members>ScratchOrgInfo.Status</members>
-        <members>ScratchOrgInfo.Username</members>
         <members>SecondArchange__c.ArCheck__c</members>
         <members>ServiceAppointment.AccountId</members>
         <members>ServiceAppointment.ActualDuration</members>
@@ -1224,7 +1116,6 @@
         <members>ServiceResource.AccountId</members>
         <members>ServiceResource.Description</members>
         <members>ServiceResource.IsActive</members>
-        <members>ServiceResource.LocationId</members>
         <members>ServiceResource.Name</members>
         <members>ServiceResource.OwnerId</members>
         <members>ServiceResource.RelatedRecordId</members>
@@ -1337,10 +1228,11 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>ARTrainDay2__c</members>
+        <members>ARTrain__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
-        <members>ActiveScratchOrg</members>
         <members>Activity</members>
         <members>Asset</members>
         <members>AssetRelationship</members>
@@ -1351,10 +1243,6 @@
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
         <members>AutoRABITTrain__c</members>
-        <members>BuyerAccount</members>
-        <members>BuyerGroup</members>
-        <members>BuyerGroupMember</members>
-        <members>BuyerGroupPricebook</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
@@ -1367,9 +1255,6 @@
         <members>CommSubscriptionChannelType</members>
         <members>CommSubscriptionConsent</members>
         <members>CommSubscriptionTiming</members>
-        <members>CommerceEntitlementBuyerGroup</members>
-        <members>CommerceEntitlementPolicy</members>
-        <members>CommerceEntitlementProduct</members>
         <members>ConsumptionRate</members>
         <members>ConsumptionSchedule</members>
         <members>Contact</members>
@@ -1388,12 +1273,9 @@
         <members>DandBCompany</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
-        <members>DelegatedAccount</members>
         <members>DigitalWallet</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
-        <members>ElectronicMediaGroup</members>
-        <members>ElectronicMediaUse</members>
         <members>EmailMessage</members>
         <members>EngagementChannelType</members>
         <members>Event</members>
@@ -1403,7 +1285,6 @@
         <members>ExternalEventMapping</members>
         <members>FeedItem</members>
         <members>Fremont__c</members>
-        <members>HarAR__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Individual</members>
@@ -1417,7 +1298,6 @@
         <members>MacroUsage</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
-        <members>NamespaceRegistry</members>
         <members>OperatingHours</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
@@ -1439,12 +1319,7 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
-        <members>ProductCatalog</members>
-        <members>ProductCategory</members>
-        <members>ProductCategoryMedia</members>
-        <members>ProductCategoryProduct</members>
         <members>ProductConsumptionSchedule</members>
-        <members>ProductMedia</members>
         <members>PromptAction</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
@@ -1458,7 +1333,6 @@
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
-        <members>ScratchOrgInfo</members>
         <members>SecondArchange__c</members>
         <members>ServiceAppointment</members>
         <members>ServiceResource</members>
@@ -1466,7 +1340,6 @@
         <members>ServiceTerritory</members>
         <members>ServiceTerritoryMember</members>
         <members>ServiceTerritoryWorkType</members>
-        <members>Session_Date__c</members>
         <members>Site</members>
         <members>SkillRequirement</members>
         <members>SocialPersona</members>
@@ -1484,16 +1357,18 @@
         <members>WorkTypeGroupMember</members>
         <members>dev2newjobs__c</members>
         <members>suchiAR__c</members>
+        <members>sunil__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>ARTrainDay2__c-en_US</members>
+        <members>ARTrain__c-en_US</members>
         <members>AutoRABITTrain__c-en_US</members>
         <members>Fremont__c-en_US</members>
-        <members>HarAR__c-en_US</members>
         <members>SecondArchange__c-en_US</members>
-        <members>Session_Date__c-en_US</members>
         <members>dev2newjobs__c-en_US</members>
         <members>suchiAR__c-en_US</members>
+        <members>sunil__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -1502,6 +1377,12 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>IframeWhiteListUrlSettings</members>
+        <name>IframeWhiteListUrlSettings</name>
+    </types>
+    <types>
+        <members>ARTrainDay2__c-ARTrainDay2 Layout</members>
+        <members>ARTrain__c-ARTrain Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -1514,7 +1395,6 @@
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
         <members>AutoRABITTrain__c-AutoRABITTrain Layout</members>
-        <members>BuyerAccount-Buyer Account Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
@@ -1541,14 +1421,12 @@
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
-        <members>DelegatedAccount-External Managed Account Layout</members>
         <members>DigitalWallet-Digital Wallet Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
         <members>Fremont__c-Fremont Layout</members>
         <members>Global-Global Layout</members>
-        <members>HarAR__c-HarAR Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
         <members>Invoice-Invoice Layout</members>
@@ -1590,7 +1468,6 @@
         <members>ServiceResourceSkill-Service Resource Skill Layout</members>
         <members>ServiceTerritory-Service Territory Layout</members>
         <members>ServiceTerritoryMember-Service Territory Member Layout</members>
-        <members>Session_Date__c-Session Date Layout</members>
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
@@ -1604,6 +1481,7 @@
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
         <members>dev2newjobs__c-dev2newjobs Layout</members>
         <members>suchiAR__c-suchiAR Layout</members>
+        <members>sunil__c-sunil Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -1612,8 +1490,6 @@
         <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
         <members>Account.PlatinumandGoldSLACustomers</members>
-        <members>ActiveScratchOrg.All_Active_Scratch_Orgs</members>
-        <members>ActiveScratchOrg.My_Active_Scratch_Orgs</members>
         <members>Activity.AllActivities</members>
         <members>Activity.MyActivities</members>
         <members>Activity.TodaysTasks</members>
@@ -1623,8 +1499,6 @@
         <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
-        <members>BuyerGroup.All_Buyer_Groups</members>
-        <members>BuyerGroup.My_Buyer_Groups</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>CardPaymentMethod.CardPaymentMethod</members>
@@ -1637,8 +1511,6 @@
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
         <members>CommSubscriptionConsent.All_CommSubscriptionConsents</members>
         <members>CommSubscriptionTiming.All_CommSubscriptionTimings</members>
-        <members>CommerceEntitlementPolicy.ALL_Entitlement_Policies</members>
-        <members>CommerceEntitlementPolicy.My_Entitlement_Policies</members>
         <members>ConsumptionSchedule.All_ConsumptionSchedules</members>
         <members>ConsumptionSchedule.My_ConsumptionSchedules</members>
         <members>Contact.AllContacts</members>
@@ -1659,8 +1531,6 @@
         <members>CreditMemo.mine</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
-        <members>DelegatedAccount.All_External_Managed_Accounts</members>
-        <members>DelegatedAccount.My_External_Managed_Accounts</members>
         <members>DigitalWallet.DigitalWallet</members>
         <members>EngagementChannelType.All_EngagementChannelTypes</members>
         <members>Idea.Ideas_Last_7_Days</members>
@@ -1670,7 +1540,6 @@
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
-        <members>NamespaceRegistry.All_Namespace_Registries</members>
         <members>OperatingHours.All_OperatingHours</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
@@ -1691,16 +1560,11 @@
         <members>PaymentGroup.PaymentGroup</members>
         <members>PaymentLineInvoice.PaymentLineInvoice</members>
         <members>Product2.AllProducts</members>
-        <members>ProductCatalog.All_Product_Catalogs_List_View</members>
-        <members>ProductCategory.All_Product_Categories_List_View</members>
-        <members>ProductCategory.Org_ProductCategory_Hierarchy</members>
         <members>Recommendation.All_Recommendations</members>
         <members>Refund.Refund</members>
         <members>RefundLinePayment.RefundLinePayment</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
-        <members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
-        <members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
         <members>ServiceAppointment.MyScheduledAppointments</members>
@@ -1777,16 +1641,6 @@
         <members>StandardAul</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
-    </types>
-    <types>
-        <members>Custom_Sales_Profile_profilePasswordPolicy1596588215119</members>
-        <members>Custom_Support_Profile_profilePasswordPolicy1596522091795</members>
-        <name>ProfilePasswordPolicy</name>
-    </types>
-    <types>
-        <members>Custom_Sales_Profile_profileSessionSetting1596588215199</members>
-        <members>Custom_Support_Profile_profileSessionSetting1596522091867</members>
-        <name>ProfileSessionSetting</name>
     </types>
     <types>
         <members>Case.LogACall</members>
@@ -1867,6 +1721,7 @@
     </types>
     <types>
         <members>Account.Billing</members>
+        <members>Account.Yahoo_Maps</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
